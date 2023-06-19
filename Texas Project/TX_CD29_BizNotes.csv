@@ -1,0 +1,11 @@
+﻿Source: 2021 County Business Patterns for Congressional Districts
+"1. CBP data includes the number of establishments, employment during the week of March 12, and annual payroll. CBP basic data are extracted from the Business Register (BR), a database of all known single and multi-establishment employer companies maintained and updated by the U.S. Census Bureau. Primary causes of differences between CBP employment estimates and ACS estimates: CBP does not cover the self-employed, public employment, and most agricultural employment; CBP estimates are not based on a sample survey; they represent business location as opposed to workers' residence in the district; use the week of March 12 as a reference period; and use a business source to determine industry."
+2. Industries not classified - Industry could not be determined.
+"3. Statewide - County Business Patterns data includes employers without a fixed location within a state (or of unknown county location). These employers are included under a ""statewide"" classification in county-level tables. Statewide cases are not included in any particular congressional district (though they would be included in at-large districts). This incomplete detail may cause a slight understatement of a district's total data."
+4. Disclosure and Quality Indicator Flag Definitions:
+G Cell value changed by less than 2 percent by the application of noise
+H Cell value changed by at least 2 percent but less than 5 percent by the application of noise
+J Cell value changed by 5 percent or more by the application of noise
+S Cell value withheld because it did not meet publication standards
+N Not available or not comparable
+X Not applicable
