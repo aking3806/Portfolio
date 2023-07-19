@@ -28,6 +28,7 @@ nav ul li a {
 
 section {
   padding: 50px 0;
+  background-color: #f7f7f7;
 }
 
 section h1 {
@@ -48,6 +49,10 @@ section li {
   margin-right: 2%;
   margin-bottom: 20px;
   vertical-align: top;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 section li:last-child {
@@ -57,17 +62,56 @@ section li:last-child {
 section li img {
   display: block;
   margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
 }
 
 section li h2 {
   font-size: 24px;
   margin-bottom: 10px;
+  color: #333;
 }
 
 section li p {
   font-size: 14px;
   line-height: 1.5;
+  color: #666;
 }
 
 form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
 }
